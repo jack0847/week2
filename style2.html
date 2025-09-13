@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week2-assignment#1</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(210, 89, 89);
+    }
+
+    .title{
+        color:white;
+    }
+
+    .title h1{
+        font-size: 70px;
+        margin-bottom: 10px;
+        padding: 0px 10px 10px 0px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .title span{
+        font-size: 30px;
+        margin-left: 15px;
+    }
+   
+    .box{
+        border:1px solid white;
+        height: 200px;
+        padding: 10px 5px 25px 5px;
+        background-color: white;
+        display:flex;
+        margin-top: 35px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    .box span{
+        font-size: 25px;
+        color: rgb(210, 89, 89);
+    }
+    .box p{
+        margin-bottom: 0px;
+    }
+    .box h2{
+        color: rgb(210, 89, 89);
+    }
+    ul{
+        list-style: none;
+        padding: 5px;
+    }
+   
+    .div_rightcontent ul li{
+        width: 150px;
+        border: 1px solid rgb(210, 89, 89);
+        border-radius: 25px;
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: rgb(210, 89, 89);
+        color: white;
+        text-align: center;
+    }
+    .div_rightcontent ul li.active{
+        background-color: white;
+        color:rgb(210, 89, 89);
+        text-align: center;
+        
+    }
+
+    .side{
+        border: 1px solid rgb(216, 168, 168);
+        height: 100px;
+        background-color: rgb(216, 168, 168);
+        color:rgb(210, 89, 89);
+        margin-bottom: 0px;
+        padding-left: 8px;
+        padding-top: 10px;
+
+    }
+    .bottom h6{
+        color:white;
+        text-align: center;
+        padding: 0px;
+        margin-top: 11px;
+        padding-left: 10px;
+    }
+
+</style>
+
+<body>
+    <!-- Top title -->
+     <div class="title">
+        <h1>Welcome to My Homepage</h1>
+        <span>Use the menu to select different Stylesheets</span>
+     </div>
+     <!-- white box -->
+      <div class="box">
+        <div class="left">
+            <span><b>Same Page Different Stylesheets</b></span>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You
+            can change the layout of this page by selecting different stylesheets in the menu, or by selecting
+            one of the following links:</p>
+            <div>
+        <a href="./style1.html">Stylesheet1</a>,
+        <a href="./style2.html">Stylesheet2</a>,
+        <a href="./style3.html">Stylesheet3</a>,
+        <a href="./style4.html">Stylesheet4</a>.
+            </div>
+
+            <h2>No Styles</h2>
+            <p>
+                This page uses DIV elements to group different sections of the HTML page. Click here to see how
+                the page looks like with no stylesheet:
+            </p>
+            <div><a href="./index.html">No Stylesheet</a>.</div>
+
+        </div>
+
+
+        <div class="right">
+            <div class="div_rightcontent">
+                <ul>
+                    <li>Stylesheet 1</li>
+                    <li class="active">Stylesheet 2</li>
+                    <li>Stylesheet 3</li>
+                    <li>Stylesheet 4</li>
+                    <li>No Stylesheet</li>
+                </ul>
+            </div>
+        </div>
+
+
+      </div>
+      <!-- Side Bar -->
+       <div class="side">
+        <h3>Side-Bar</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+            ut laoreet dolore magna aliquam erat volutpat.</p>
+       </div>
+       <!-- Bottom -->
+        <div class="bottom">
+            <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
+                ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis 
+                nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
+                vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzri
+                l delenit augue duis dolore te feugait nulla facilisi.</h6>
+        </div>
+</body>
+</html>
+
+
+
+
